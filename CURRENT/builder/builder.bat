@@ -1,0 +1,8 @@
+@ECHO off
+COLOR 1A
+TITLE MEETEP
+SET APPLI_DIR=%~dp0
+SET PYTHON_EXE=D:\users\Appl\Python27\python.exe
+%PYTHON_EXE% "%APPLI_DIR%\setup.py" py2exe
+PAUSE
+EXIT
